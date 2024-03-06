@@ -5,9 +5,9 @@ import "./Application.css";
 function App() {
   return (
     <div className='container'>
-     <Product/>
-     <Product/>
-     <Product/>
+     <Product title="Asus" image="images/asus.jpg" price={130}/>
+     <Product title="Acer" image="images/acur.jpg" price={190}/>
+     <Product title="Samsung" image="images/samsung.jpg" price={290}/>
     </div>
   );
 }
